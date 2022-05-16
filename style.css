@@ -68,6 +68,7 @@ span {
 }
 
 .controls {
+   left: 80%;
 	margin-left: -98px;
 	position: absolute;
 }
