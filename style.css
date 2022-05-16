@@ -96,6 +96,8 @@ span {
    width: 16px;
 	position: absolute;
 	border-radius: 50%;
+   left: -7px;
+   top: -7px;
 }
 
 .bottom-container {
