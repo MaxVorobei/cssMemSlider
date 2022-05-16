@@ -167,3 +167,28 @@ span {
 	z-index: 1;
 	transform: scale(1);
 }
+
+@media (max-width: 680px) {
+	.wrapper {
+		max-height: 70%;
+		width: 100%;
+		margin: 15px auto;
+	}
+	.controls {
+		left: 0;
+		margin-left: 0;
+		position: inherit;
+		margin-top: 15px;
+	}
+
+	.texts {
+		margin-left: -23%;
+		margin-top: 25px;
+      padding-left: 0;
+	}
+
+	.bottom-container {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+}
